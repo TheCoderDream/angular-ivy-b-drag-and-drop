@@ -25,6 +25,7 @@ export class BdndDirective implements AfterViewInit, OnDestroy {
   private element: HTMLElement;
   private handleElement: HTMLElement;
   private subscriptions = new Subscription();
+  
 
   @ContentChild(BdndHandleDirective) handle: BdndHandleDirective;
 
